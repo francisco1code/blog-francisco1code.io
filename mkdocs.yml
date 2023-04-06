@@ -1,0 +1,14 @@
+site_name: francisco1code.tech
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+
