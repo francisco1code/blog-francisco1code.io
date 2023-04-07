@@ -1,6 +1,6 @@
-<center>
+
 # Sobre mim
-</center>
+
 
 
 <center>
@@ -17,19 +17,18 @@
 
 
 
-<p> Olá, me chamo Francisco Ferreira, Sou apaixonado por tecnologia desde que me entendo por gente e um grande entusiasta da cultura Devops. Sou mente aberta, e sempre estou buscando melhorar minhas habilidades pessoais e técnicas.
+<p> Olá, me chamo Francisco Ferreira, Sou apaixonado por tecnologia e um grande entusiasta da cultura Devops. Sou mente aberta, e sempre estou buscando melhorar minhas habilidades pessoais e técnicas.
 </p>
 
 <center>  
 ## Ensino: 
 </center>
 
-Estudante em Engenharia de Software pela Universidade de Brasilia (Unb) 🎓🎓🎓 82% concluido.
-
+🎓 Estudante em Engenharia de Software pela Universidade de Brasilia (Unb) 🎓
 
 
 <center>
-## Conhecimento
+## Principais Stacks
 </center>
 
 
@@ -45,10 +44,10 @@ Estudante em Engenharia de Software pela Universidade de Brasilia (Unb) 🎓🎓
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Linux', 'Docker', 'Kubernetes', 'Redes', 'Golang', 'Git', 'CI/CD'],
+      labels: ['Linux', 'Docker', 'Kubernetes', 'Postgres', 'Golang', 'Git', 'CI/CD', 'Mongo'],
       datasets: [{
         label: 'Tabela de Conhecimento',
-        data: [8, 8, 2, 5, 4, 10, 7 ],
+        data: [8, 8, 2, 5, 4, 10, 7, 6 ],
         borderWidth: 1
       }]
     },
@@ -64,6 +63,46 @@ Estudante em Engenharia de Software pela Universidade de Brasilia (Unb) 🎓🎓
 
 
 
+<script>
+ / http://www.chartjs.org/docs/#radar-chart-introduction
+
+var data = {
+    labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+    datasets: [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [65, 59, 90, 81, 56, 55, 40]
+        },
+        {
+            label: "My Second dataset",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [28, 48, 40, 19, 96, 27, 100]
+        }
+    ]
+};
+
+var ctx = document.getElementById("myChart").getContext("2d");
+var myRadarChart = new Chart(ctx).Radar(data);
+
+
+
+</script>
+
+<canvas id="myChart" width="600" height="400"></canvas>
+
+
+
 <center > 
 ## Contato:
 <div> Github: <a href="https://github.com/francisco1code">francisco1code</a></div>
@@ -75,12 +114,6 @@ Estudante em Engenharia de Software pela Universidade de Brasilia (Unb) 🎓🎓
 
 
 <style>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 
 a:hover {
   color: red;

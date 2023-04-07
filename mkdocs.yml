@@ -1,17 +1,41 @@
-site_name: francisco1code.tech
+site_name: Francisco Penha
 
 theme:
   name: material
   language: pt
   features:
     - navigation.tabs
+  logo: https://raw.githubusercontent.com/francisco1code/blog-francisco1code.tech/main/images/icon.jpg
+
 
 extra:
   alternate:
     - name: English
       link: /en/ 
       lang: en
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://fosstodon.org/@squidfunk
+      name: Github
+    - icon: fontawesome/brands/linkedin
+      link: google.com
+      name: Linkedin
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<francisco1code@gmail.com>
+      name: Email
+
+copyright: Copyright &copy; 2023 Francisco E. F. Penha
 
 extra_css: 
         - assets/stylesheets/extra.css
+        - assets/stylesheets/codehilite.css
+
+nav:
+    - Home: 'index.md'
+    - Experiencias: 'experiencias.md'
+    - Blogs:
+        - Docker: docker.md
+        - Github: github.md
+
 
